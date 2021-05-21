@@ -1,0 +1,61 @@
+.container {
+  padding-bottom: 100px;
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.post {
+  height: 494px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  .overlay {
+    height: 100%;
+    background-color: rgba(49, 52, 60, 0.66);
+    padding: 110px 85px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h4 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    > div {
+      font-family: "Lato";
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 22.5px;
+      text-align: center;
+      margin: 15px 0px;
+
+      span {
+        & + span {
+          margin-left: 15px;
+        }
+      }
+    }
+
+    button {
+      font-size: 14px;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 21px;
+      background:var(--yellow);
+      color:var(--white);
+      padding: 13px 27px;
+      border: 0;
+      text-transform: uppercase;
+    }
+  }
+}
