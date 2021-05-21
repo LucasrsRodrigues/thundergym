@@ -1,0 +1,72 @@
+.container {
+  background: var(--yellow);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+
+  .logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav {
+    padding: 20px 0px 0px 0px;
+    nav {
+      ul {
+        display: flex;
+        list-style: none;
+
+        li {
+          text-transform: uppercase;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-size: 14px;
+
+          a {
+            display: block;
+            padding: 0px 0px 15px 0px;
+
+            border-bottom: 4px solid var(--yellow);
+
+            transition: border 0.2s;
+          }
+
+          &.active a,
+          &:hover a {
+            border-bottom: 4px solid var(--white);
+          }
+
+          & + li {
+            margin-left: 44px;
+          }
+        }
+      }
+    }
+  }
+
+  .social {
+    display: flex;
+    align-items: center;
+
+    a {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-right: 10px;
+
+      transition: background 0.2s;
+
+      &:hover {
+        background: var(--white);
+        color: var(--yellow);
+      }
+    }
+  }
+}

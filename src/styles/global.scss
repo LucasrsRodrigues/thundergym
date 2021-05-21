@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFF;
+  --black: #000;
+
+  --yellow: #fec942;
+  --blue-700:#20232A;
+  --blue-800:#181A1F;
+  
+}
+
+
+body {
+  background: var(--blue-800);
+  color: var(--white);
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+
+button {
+  cursor: pointer;
+  border-radius: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
