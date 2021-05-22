@@ -5,23 +5,27 @@
 }
 
 :root {
-  --white: #FFF;
+  --white: #fff;
   --black: #000;
 
   --yellow: #fec942;
-  --blue-700:#20232A;
-  --blue-800:#181A1F;
+  --blue-700: #20232a;
+  --blue-800: #181a1f;
 
+  --gray-550: #818181;
 }
-
 
 body {
   background: var(--blue-800);
   color: var(--white);
 }
 
-body, input, textarea, select, button {
-  font: 400 1rem 'Montserrat', sans-serif;
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1rem "Montserrat", sans-serif;
 }
 
 @media (max-width: 1080px) {
@@ -36,7 +40,6 @@ body, input, textarea, select, button {
   }
 }
 
-
 button {
   cursor: pointer;
   border-radius: 0;
@@ -47,3 +50,6 @@ a {
   text-decoration: none;
 }
 
+.awssld__bullets button {
+  display: none !important;
+}

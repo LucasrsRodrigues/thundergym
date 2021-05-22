@@ -37,5 +37,12 @@
     border-color: var(--white);
     padding: 13px 33px;
     color: var(--white);
+
+    transition: all ease 0.5s;
+
+    &:hover {
+      background: var(--white);
+      color: var(--black)
+    }
   }
 }

@@ -10,6 +10,7 @@ type Coache = {
   facebook: string;
   instagram: string;
   twitter: string;
+  background: string;
 }
 
 interface CoacheProps{
@@ -18,7 +19,7 @@ interface CoacheProps{
 
 export function Coache({ coache }: CoacheProps){
   return(
-    <div className={styles.coache}>
+    <div style={{ background: `${coache.background}`}} className={styles.coache}>
       <div 
         style={{ backgroundImage: `url(/coaches/${coache.photo})` }} 
         className={styles.img} 

@@ -14,7 +14,7 @@ export function Program({title,image }: ProgramProps){
     >
       <h2>{title}</h2>
       <button>
-        Program Details
+        Saiba mais
       </button>
     </div>
   )

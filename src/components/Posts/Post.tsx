@@ -23,7 +23,7 @@ export function Post({ post }: PostProps) {
         </h4>
         <div>
           <span>
-            Posted by {owner}
+            Publicado por {owner}
           </span>
           <span>
             {date}

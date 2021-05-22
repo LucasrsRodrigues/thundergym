@@ -1,4 +1,5 @@
 
+import { FaInstagram } from 'react-icons/fa';
 import styles from './styles.module.scss';
 
 const images = [
@@ -26,8 +27,10 @@ export function Gallery() {
               <div className="img">
                 <img src={image.name} alt="" />
               </div>
-              <div className="overlay">
-
+              <div className={styles.overlay}>
+                <div>
+                  <FaInstagram />
+                </div>
               </div>
             </a>
           </div>

@@ -1,6 +1,7 @@
 import { Banner } from "../components/Banner";
 import { Coaches } from "../components/Coaches";
 import { ContactHeader } from "../components/ContactHeader";
+import { Footer } from "../components/Footer";
 import { Gallery } from "../components/Gallery";
 import { Menu } from "../components/Menu";
 import { Posts } from "../components/Posts";
@@ -20,6 +21,7 @@ export default function Home() {
       <Posts />
       <Testimonials />
       <Gallery />
+      <Footer />
     </div>
   )
 }

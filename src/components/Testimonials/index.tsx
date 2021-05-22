@@ -10,10 +10,10 @@ export function Testimonials(){
         <div>
           <FaQuoteLeft />
           <p>
-            IronMass CrossFit Studio had me at a first fitness workout. It’s a 
-            truly inspiring team of fitness professionals. 
-            They are able to spread the love for what they teach to everyone. 
-            Their abilities & enthusiasm are just overwhelming!
+            O IronMass CrossFit Studio me deu um primeiro treino de fitness.
+            É uma equipe verdadeiramente inspiradora de profissionais de fitness. 
+            Eles são capazes de espalhar o amor pelo que ensinam a todos. 
+            Suas habilidades e entusiasmo são simplesmente avassaladores!
           </p>
           <span>SARAH O'MALLEY</span>
         </div>
