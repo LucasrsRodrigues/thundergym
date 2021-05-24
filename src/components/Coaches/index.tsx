@@ -6,13 +6,16 @@ import { Coache } from "./Coache";
 
 import coaches from "../../utils/data/coaches";
 
+interface CoachesProps{
+  showTitle?: boolean; 
+}
 
 
-
-export function Coaches() {
+export function Coaches({ showTitle = true }: CoachesProps) {
   return (
     <section className={styles.container}>
-      <SectionTitle title="Treinadores" />
+      {showTitle && <SectionTitle title="Treinadores" /> }
+      
       <div className={styles.content}>
         {coaches.map(coache => (
           <Coache coache={coache} />

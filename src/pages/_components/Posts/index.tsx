@@ -1,9 +1,9 @@
 
-import { SectionTitle } from '../SectionTitle';
+import { SectionTitle } from '../../../components/SectionTitle';
+import posts from '../../../utils/data/posts';
 import { Post } from './Post';
 import styles from './styles.module.scss';
 
-import posts from '../../utils/data/posts';
 
 
 export function Posts() {

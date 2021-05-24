@@ -1,9 +1,13 @@
 import styles from './styles.module.scss';
+import Link from 'next/link';
+import {useRouter} from 'next/router';
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterest, FaTwitter } from '../Icons';
 
-export function Menu(){
-  return(
+export function Menu() {
+  const router = useRouter();
+
+  return (
     <section className={styles.container}>
       <div className={styles.logo}>
         <strong>
@@ -13,30 +17,42 @@ export function Menu(){
       <div className={styles.nav}>
         <nav>
           <ul>
-            <li className={styles.active}>
-              <a href="#">
-                Home
-              </a>
+            <li className={router.asPath === '/' && styles.active}>
+              <Link href="/">
+                <a>
+                  Home
+                </a>
+              </Link>
             </li>
-            <li>
-              <a href="#">
-                Aulas
-              </a>
+            <li className={router.asPath === '/classes' && styles.active}>
+              <Link href="/classes">
+                <a>
+                  Aulas
+                </a>
+              </Link>
             </li>
-            <li>
-              <a href="#">
-                Treinadores
-              </a>
+            <li className={router.asPath === '/coaches' && styles.active}>
+              <Link href="/coaches">
+                <a>
+                    Treinadores
+                </a>
+              </Link>
             </li>
-            <li>
-              <a href="#">
-                Blog
+            <li className={router.asPath === '/blog' && styles.active}>
+              <Link href="/blog">
+                <a>
+                  Blog
               </a>
+              </Link>
+             
             </li>
-            <li>
-              <a href="#">
-                Contato
+            <li className={router.asPath === '/contacts' && styles.active}>
+              <Link href="/contacts">
+                <a>
+                  Contato
               </a>
+              </Link>
+              
             </li>
           </ul>
         </nav>

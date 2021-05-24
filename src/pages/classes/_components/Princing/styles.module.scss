@@ -1,0 +1,44 @@
+.wrapperPricing {
+  display: flex;
+  background: var(--yellow);
+
+  margin-bottom: 62px;
+
+  img {
+    width: 494px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .pricing {
+    width: 498px;
+    padding: 30px 60px;
+
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 26px;
+      letter-spacing: 1px;
+      margin-bottom: 24px;
+    }
+
+    ul {
+      li {
+        display: flex;
+
+        span {
+          display: block;
+          font-family: "Lato";
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 30px;
+
+          svg {
+            width: 8px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}

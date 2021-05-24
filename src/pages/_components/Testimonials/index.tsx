@@ -1,7 +1,8 @@
 
-import { SectionTitle } from '../SectionTitle';
+import { FaQuoteLeft } from 'react-icons/fa';
+import { SectionTitle } from '../../../components/SectionTitle';
 import styles from './styles.module.scss';
-import { FaQuoteLeft } from '../Icons';
+
 export function Testimonials(){
   return(
     <section className={styles.container}>
@@ -10,7 +11,7 @@ export function Testimonials(){
         <div>
           <FaQuoteLeft />
           <p>
-            O IronMass CrossFit Studio me deu um primeiro treino de fitness.
+            O ThunderGym CrossFit Studio me deu um primeiro treino de fitness.
             É uma equipe verdadeiramente inspiradora de profissionais de fitness. 
             Eles são capazes de espalhar o amor pelo que ensinam a todos. 
             Suas habilidades e entusiasmo são simplesmente avassaladores!

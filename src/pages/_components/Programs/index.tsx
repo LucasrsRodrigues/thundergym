@@ -1,5 +1,5 @@
 
-import { SectionTitle } from '../SectionTitle';
+import { SectionTitle } from '../../../components/SectionTitle';
 import { Program } from './Program';
 import styles from './styles.module.scss';
 
