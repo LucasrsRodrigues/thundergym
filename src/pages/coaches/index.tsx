@@ -1,3 +1,4 @@
+import { GetStaticProps } from "next";
 import { ContactHeader } from "../../components/ContactHeader";
 import { Footer } from "../../components/Footer";
 import { InternalHeader } from "../../components/InternalHeader";
@@ -14,4 +15,12 @@ export default function Coaches(){
       <Footer />
     </div>
   );
+}
+
+
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {},
+    revalidate: 60 * 60 * 24, // 24 hours 
+  }
 }
