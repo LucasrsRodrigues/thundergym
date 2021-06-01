@@ -1,5 +1,4 @@
-import { Coaches } from '../../../../components/Coaches';
-import { SectionTitle } from '../../../../components/SectionTitle';
+import { Coaches, SectionTitle } from '../../../global';
 import styles from './styles.module.scss';
 
 export function Main() {

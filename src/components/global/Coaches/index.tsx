@@ -3,8 +3,8 @@ import { SectionTitle } from "../SectionTitle";
 import styles from './styles.module.scss';
 
 import { Coache } from "./Coache";
+import coaches from "../../../utils/data/coaches";
 
-import coaches from "../../utils/data/coaches";
 
 interface CoachesProps{
   showTitle?: boolean; 

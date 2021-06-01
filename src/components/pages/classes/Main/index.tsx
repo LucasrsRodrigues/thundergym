@@ -1,11 +1,11 @@
-import { SectionTitle } from "../../../../components/SectionTitle";
 
 import styles from './styles.module.scss';
 import { Describe } from "../Describe";
 import { Princing } from "../Princing";
 import { Coach } from "../Coach";
 import Link from "next/link";
-import { Gallery } from "../../../_components";
+import { SectionTitle } from '../../../global';
+import { Gallery } from '../../home';
 
 export function Main() {
   return (

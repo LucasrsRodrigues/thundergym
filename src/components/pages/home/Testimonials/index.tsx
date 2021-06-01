@@ -1,6 +1,6 @@
 
 import { FaQuoteLeft } from 'react-icons/fa';
-import { SectionTitle } from '../../../components/SectionTitle';
+import { SectionTitle } from '../../../global';
 import styles from './styles.module.scss';
 
 export function Testimonials(){
