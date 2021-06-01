@@ -40,9 +40,6 @@ export function Main(){
             <button>Submit</button>
           </form>
         </section>
-
-
-
       </div>
     </main>
       

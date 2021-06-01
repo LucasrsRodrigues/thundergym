@@ -1,10 +1,7 @@
 import { GetStaticProps } from "next";
-import { ContactHeader } from "../../components/ContactHeader";
-import { Footer } from "../../components/Footer";
-import { InternalHeader } from "../../components/InternalHeader";
-import { Menu } from "../../components/Menu";
-import { SectionTitle } from "../../components/SectionTitle";
-import { Main } from "./_components/Main";
+import { ContactHeader, Footer, InternalHeader, Menu } from "../../components/global";
+
+import { Main } from "../../components/pages/classes/Main";
 
 export default function Classes(){
   return(

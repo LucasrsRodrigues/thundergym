@@ -1,8 +1,11 @@
 import { GetStaticProps } from "next";
-import { Coaches } from "../components/Coaches";
-import { ContactHeader } from "../components/ContactHeader";
-import { Footer } from "../components/Footer";
-import { Menu } from "../components/Menu";
+
+import {
+  ContactHeader,
+  Footer,
+  Menu,
+  Coaches
+} from '../components/global';
 
 import {
   Banner,
@@ -11,7 +14,7 @@ import {
   Programs,
   Slide,
   Testimonials
-} from './_components';
+} from '../components/pages/home';
 
 
 export default function Home() {

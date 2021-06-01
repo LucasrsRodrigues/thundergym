@@ -1,11 +1,10 @@
 import { GetStaticProps } from "next";
-import { ContactHeader } from "../../components/ContactHeader";
-import { Footer } from "../../components/Footer";
-import { InternalHeader } from "../../components/InternalHeader";
-import { Menu } from "../../components/Menu";
-import posts from "../../utils/data/posts";
-import { Main } from "./_components/Main";
+import { ContactHeader, Menu, Footer, InternalHeader  } from "../../components/global";
 
+import { Main } from "../../components/pages/blog/Main";
+
+
+import posts from "../../utils/data/posts";
 export default function Blog(){
   return(
     <div className="container">
