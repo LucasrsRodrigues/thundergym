@@ -1,7 +1,6 @@
 .wrapperPricing {
   display: flex;
   background: var(--yellow);
-
   margin-bottom: 62px;
 
   img {
@@ -12,10 +11,10 @@
 
   .pricing {
     width: 498px;
-    padding: 30px 60px;
+    padding: 1.875rem 60px;
 
     h4 {
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: 700;
       line-height: 26px;
       letter-spacing: 1px;
@@ -29,9 +28,9 @@
         span {
           display: block;
           font-family: "Lato";
-          font-size: 20px;
+          font-size: 1.25rem;
           font-weight: 300;
-          line-height: 30px;
+          line-height: 1.875rem;
 
           svg {
             width: 8px;

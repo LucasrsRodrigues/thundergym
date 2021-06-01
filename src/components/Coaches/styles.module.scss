@@ -1,19 +1,27 @@
 .container {
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
   background: var(--blue-700);
 
   .content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width: 1024px){
+      padding: 60px 0px 60px 0px;
+    }
+    @media (max-width: 767px){
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 }
 
 .coache {
   display: flex;
 
+  
 
   .img {
-    width: 303px;
+    width: 18.938rem;
     height: 100%;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     position: relative;
@@ -34,34 +42,34 @@
   }
 
   .info {
-    padding: 42px 50px 37px 60px;
+    padding: 2.625rem 3.125rem 2.313rem 3.75rem;
 
     h4 {
-      margin: 0px 0px 8px 0px;
-      font-size: 24px;
+      margin-bottom:0.5rem;
+      font-size: 1.5rem;
       font-weight: 700;
       text-transform: uppercase;
-      line-height: 31.2px;
-      letter-spacing: 1px;
+      line-height: 1.95rem;
+      letter-spacing: 0.063rem;
     }
 
     span {
       display: block;
       color: var(--yellow);
-      font-size: 14px;
+      font-size: 0.875rem;
       font-weight: 700;
       text-transform: uppercase;
-      line-height: 21px;
-      margin-bottom: 10px;
+      line-height: 1.313rem;
+      margin-bottom: 0.625rem;
     }
 
     p {
       font-family: "Lato";
-      font-size: 20px;
+      font-size:  1.25rem;
       font-weight: 300;
-      line-height: 30px;
-      margin-bottom: 22px;
-      max-width: 340px;
+      line-height: 1.875rem;
+      margin-bottom: 1.375rem;
+      max-width: 2 1.25rem;
     }
   }
 
@@ -73,18 +81,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 33px;
-      height: 33px;
+      width: 2.063rem;
+      height: 2.063rem;
       border: 2px solid var(--white);
       border-radius: 50%;
 
       svg {
-        width: 10.5px;
+        width: 0.656rem;
         height: auto;
       }
 
       & + a {
-        margin-left: 5px;
+        margin-left: 0.313rem;
       }
 
       transition: all ease 0.5s;
@@ -94,5 +102,18 @@
       color: var(--black)
     }
     }
+  }
+
+  @media (max-width: 1024px){
+   flex-direction: column;
+   height: 523px;
+
+   .img {
+     width: 100%;
+   }
+
+   .info {
+     padding: 10px 15px 10px 15px;
+   }
   }
 }

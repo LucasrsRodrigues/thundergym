@@ -1,6 +1,6 @@
 .container {
   background: var(--blue-700);
-  padding: 13px 10px;
+  padding: 0.813rem 0.625rem;
 
   ul {
     display: flex;
@@ -8,19 +8,19 @@
     li {
       font-family: 'Lato';
       font-weight: 300;
-      font-size: 15px;
+      font-size: 0.938rem;
       display: flex;
       align-items: center;
 
       svg {
-        width: 20px;
+        width: 1.25rem;
         height: auto;
         color: var(--yellow);
-        margin-right: 8px;
+        margin-right: 0.5rem;
       }
 
       & + li {
-        margin-left: 20px;
+        margin-left: 1.25rem;
       }
     }
   }

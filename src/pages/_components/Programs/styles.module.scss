@@ -1,9 +1,19 @@
 .container {
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
   .content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 630px;
+
+    @media(max-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media(max-width: 767px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    
   }
 }
 
@@ -35,7 +45,7 @@
     border-style: solid;
     background: transparent;
     border-color: var(--white);
-    padding: 13px 33px;
+    padding: 13px 2.063rem;
     color: var(--white);
 
     transition: all ease 0.5s;

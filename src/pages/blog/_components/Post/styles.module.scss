@@ -9,7 +9,7 @@
   border-radius: 10px;
 
   & + article {
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 
   .entryHeader {
@@ -25,7 +25,7 @@
     }
 
     .entryMeta {
-      margin-top: 50px;
+      margin-top: 3.125rem;
       font-size: 0.875rem;
       display: flex;
 
@@ -69,9 +69,9 @@
       border: 1px solid var(--white);
       background: transparent;
       text-transform: uppercase;
-      border-radius: 5px;
+      border-radius: 0.313rem;
       color: var(--white);
-      padding: 12px 20px;
+      padding: 12px 1.25rem;
       font-size: 11px;
       font-family: "Roboto";
       font-weight: 900;
@@ -87,12 +87,12 @@
       svg {
         width: 15px;
         height: auto;
-        margin-right: 5px;
+        margin-right: 0.313rem;
       }
     }
   }
 
   @media (min-width: 640px) {
-    padding: 30px;
+    padding: 1.875rem;
   }
 }

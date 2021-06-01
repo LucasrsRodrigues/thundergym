@@ -15,7 +15,7 @@
       width: 399px;
 
       .wrapperInput {
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
         padding-bottom: 40px;
         border-bottom: 1px solid #ebeced;
 
@@ -58,7 +58,7 @@
     margin-top: 0;
     margin-bottom: 25px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.5;
     font-family: "Roboto";
     letter-spacing: 0px;
@@ -70,7 +70,7 @@
     margin-left: 0;
 
     li {
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
       word-wrap: break-word;
 
       a {
@@ -84,7 +84,7 @@
   }
 
   & + .linksContent {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     padding-top: 40px;
     border-top: 1px solid #ebeced;
   }
